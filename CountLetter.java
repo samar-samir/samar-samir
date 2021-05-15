@@ -44,7 +44,7 @@ public class CountLetter {
 
     public static void main(String[] args) throws IOException {
         FileReader file01 = new FileReader("C:\\Users\\samar samir\\Desktop\\gui.txt");
-        CountLetter cl1 = new CountLetter(file01, 'c');
+        CountLetter cl1 = new CountLetter(file01, 'e');
 
         System.out.println(cl1.count(cl1.readFile()));
     }
